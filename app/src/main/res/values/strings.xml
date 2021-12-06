@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EditActivity</string>
+    <string name="addButton">Add check</string>
+    <string name="next"><![CDATA[>>]]></string>
+    <string name="Prev"><![CDATA[<<]]></string>
+    <string name="DoneButton">Done</string>
+</resources>
