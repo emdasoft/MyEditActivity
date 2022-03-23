@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.mcalc.editactivity.databinding.CheckItemBinding
 
 class CheckAdapter:RecyclerView.Adapter<CheckAdapter.CheckHolder>() {
-    var arrayCheck = arrayListOf<Check>()
+    private var arrayCheck = arrayListOf<Check>()
 
     class CheckHolder(item: View):RecyclerView.ViewHolder(item) {
         private val binding = CheckItemBinding.bind(item)

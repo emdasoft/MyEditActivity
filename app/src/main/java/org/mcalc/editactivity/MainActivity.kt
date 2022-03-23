@@ -1,19 +1,18 @@
 package org.mcalc.editactivity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import org.mcalc.editactivity.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private val adapter = CheckAdapter()
-    lateinit var binding: ActivityMainBinding
-    var editLauncher: ActivityResultLauncher<Intent>? = null
+    private lateinit var binding: ActivityMainBinding
+    private var editLauncher: ActivityResultLauncher<Intent>? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

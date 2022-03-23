@@ -3,7 +3,6 @@ package org.mcalc.editactivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import org.mcalc.editactivity.databinding.ActivityEditBinding
 
 class EditActivity : AppCompatActivity() {
@@ -19,7 +18,7 @@ class EditActivity : AppCompatActivity() {
         R.drawable.image8
     )
     private var imageId = arrayId[0]
-    lateinit var binding: ActivityEditBinding
+    private lateinit var binding: ActivityEditBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityEditBinding.inflate(layoutInflater)
