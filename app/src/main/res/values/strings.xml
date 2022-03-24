@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">EditActivity</string>
+    <string name="app_name">MyBalance</string>
     <string name="addButton">Add check</string>
-    <string name="next"><![CDATA[>>]]></string>
-    <string name="Prev"><![CDATA[<<]]></string>
-    <string name="DoneButton">Done</string>
+    <string name="next" translatable="false"><![CDATA[>>]]></string>
+    <string name="prev" translatable="false"><![CDATA[<<]]></string>
+    <string name="doneButton">Done</string>
+    <string name="check_name">Name of check</string>
+    <string name="amount">Amount</string>
+    <string name="descr">Description</string>
+    <string name="img_descr">Choose picture for check</string>
 </resources>

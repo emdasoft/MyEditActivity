@@ -21,6 +21,7 @@
 
         <ImageView
             android:id="@+id/imView"
+            android:contentDescription="@string/img_descr"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/image1" />
@@ -43,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/Prev"
+        android:text="@string/prev"
         app:layout_constraintBottom_toBottomOf="@+id/cardView"
         app:layout_constraintStart_toStartOf="@+id/cardView" />
 
@@ -68,23 +69,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Name of Check"
-                android:inputType="textPersonName" />
+                android:hint="@string/check_name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:importantForAutofill="no" />
 
             <EditText
                 android:id="@+id/edAmount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Amount"
-                android:inputType="textPersonName" />
+                android:hint="@string/amount"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/edDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="@string/descr"
+                android:inputType="textMultiLine|text"
+                android:lines="3"
+                android:minHeight="48dp"
+                android:importantForAutofill="no" />
 
             <Button
                 android:id="@+id/btnDone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/DoneButton" />
+                android:text="@string/doneButton" />
+
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

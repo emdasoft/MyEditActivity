@@ -8,8 +8,8 @@ import org.mcalc.editactivity.databinding.ActivityEditBinding
 class EditActivity : AppCompatActivity() {
     private var index = 0
     private val arrayId = listOf(
-        R.drawable.image1,
-        R.drawable.image2,
+        R.drawable.ic_one,
+        R.drawable.ic_two,
         R.drawable.image3,
         R.drawable.image4,
         R.drawable.image5,

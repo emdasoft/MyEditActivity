@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyBalance</string>
+    <string name="addButton">Добавить счет</string>
+    <string name="doneButton">Готово</string>
+    <string name="check_name">Имя счета</string>
+    <string name="amount">Сумма</string>
+    <string name="descr">Описание</string>
+    <string name="img_descr">Выбор изображения для нового счета</string>
+</resources>
